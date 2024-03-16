@@ -1,0 +1,51 @@
+/* Header.css */
+
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd; /* Add a subtle border at the bottom */
+    padding: 20px 0;
+  }
+  
+  .header-content {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .navigation {
+    text-align: right;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-item {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .nav-item:first-child {
+    margin-left: 0;
+  }
+  
+  .nav-item a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-item a:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
